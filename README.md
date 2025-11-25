@@ -110,7 +110,7 @@ pip install -r requirements.txt
 ```
 
 
-> **Note:** Choose the environment based on your task. For most users interested in running the model, use Option A.
+> **Note:** Choose the environment based on your task. 
 
 
 ## 📂 Data Preparation
