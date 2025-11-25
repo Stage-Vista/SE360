@@ -147,7 +147,6 @@ python main.py test \
     --model=SE360 \
     --data=SE360_Base \
     --ckpt=checkpoints/se360_step_step=001000.ckpt \
-    --result_dir results/
 ```
 
 *   `--ckpt`: Path to the model checkpoint.
