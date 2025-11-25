@@ -157,7 +157,7 @@ python main.py test \
 python main.py test \
     --model=EvalPanoGen \
     --data=SE360_Base \
-    --result_dir logs/your_result_dir/test \
+    --result_dir=logs/your_result_dir/test \
 
 ```
 *   `--result_dir`: Directory where results will be saved.
