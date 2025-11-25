@@ -53,7 +53,7 @@ Download the required model weights and place them in the `checkpoints/` directo
 
 ```bash
 # Create checkpoints directory if it doesn't exist
-mkdir -p checkpoints
+https://drive.google.com/drive/folders/1Hpdf9hEF9HyCnY-BtcjsOypIOq6caZ-L?usp=drive_link
 
 # Download your model weights here
 # Example: wget <your_checkpoint_url> -O checkpoints/model.ckpt
