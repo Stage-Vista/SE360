@@ -30,7 +30,7 @@ image_base_path = "./data/Matterport3D/mp3d_skybox/"
 
 # We recommend enabling flash_attention_2 for better acceleration and memory saving, especially in multi-image and video scenarios.
 model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
-    "Qwen/Qwen2.5-VL-7B-Instruct",
+    "Qwen/Qwen2.5-VL-32B-Instruct",
     torch_dtype=torch.bfloat16,
     attn_implementation="flash_attention_2",
     device_map="auto",
@@ -38,7 +38,7 @@ model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
 )
 
 # default processor
-processor = AutoProcessor.from_pretrained("Qwen/Qwen2.5-VL-7B-Instruct", use_fast=True, cache_dir=None)
+processor = AutoProcessor.from_pretrained("Qwen/Qwen2.5-VL-32B-Instruct", use_fast=True, cache_dir=None)
 # Set padding_side to 'left' to avoid errors during batch generation
 processor.tokenizer.padding_side = 'left'
 
@@ -46,7 +46,7 @@ processor.tokenizer.padding_side = 'left'
 # You can set min_pixels and max_pixels according to your needs, such as a token range of 256-1280, to balance performance and cost.
 # min_pixels = 256*28*28
 # max_pixels = 1280*28*28
-# processor = AutoProcessor.from_pretrained("Qwen/Qwen2.5-VL-7B-Instruct", min_pixels=min_pixels, max_pixels=max_pixels)
+# processor = AutoProcessor.from_pretrained("Qwen/Qwen2.5-VL-32B-Instruct", min_pixels=min_pixels, max_pixels=max_pixels)
 
 # --- Add erp_bbox_to_perspective function directly here ---
 def erp_bbox_to_perspective(json_path, output_path, detection_index=0, out_hw=(1024, 1024)):

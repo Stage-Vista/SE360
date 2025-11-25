@@ -365,7 +365,7 @@ class SE360_Base(PanoDataModule):
     def __init__(
             self,
             data_dir: str = 'data/Matterport3D/mp3d_skybox',
-            inpaint_data_dir: str = 'data/Matterport3D/version2/mp3d_inpaint_all',
+            inpaint_data_dir: str = 'data/Matterport3D/mp3d_base',
             s3d_data_dir: str = None,
             s3d_inpaint_data_dir: str = None,
             predict_data_dir: str = 'data/Matterport3D/test_final_without_artifacts',#'data/Matterport3D/test_for_paper_add',

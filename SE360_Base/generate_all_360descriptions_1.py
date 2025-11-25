@@ -289,7 +289,7 @@ def main():
     parser.add_argument(
         "--vlm_model_path",
         type=str,
-        default="Qwen/Qwen2.5-VL-7B-Instruct", #Qwen/Qwen2.5-VL-32B-Instruct
+        default="Qwen/Qwen2.5-VL-32B-Instruct", #Qwen/Qwen2.5-VL-32B-Instruct
         help="VLM model path"
     )
     # keep default prompt, but allow command line override
