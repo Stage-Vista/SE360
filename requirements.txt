@@ -1,0 +1,18 @@
+diffusers==0.33.0
+transformers==4.51.3
+wandb==0.19.10
+einops==0.8.1
+scipy==1.13.1
+scikit-image==0.25.2
+lightning[pytorch-extra]
+xformers==0.0.29
+kornia==0.8.0
+shapely==2.0.7
+peft==0.15.2
+sentencepiece==0.2.0
+opencv-python==4.11.0.86
+segment-anything
+supervision
+torch-fidelity
+torchmetrics==1.3.2
+#pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
