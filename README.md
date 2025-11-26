@@ -10,8 +10,24 @@ SE360 is a novel framework for semantic editing in 360° panoramas. By leveragin
 
 **Authors:** Haoyi Zhong, Fang-Lue Zhang, Andrew Chalmers, Taehyun Rhee
 
+## 📋 TODO List
 
-## 🛠️ Installation
+- [x] Data Generation Pipeline
+- [x] Panoramic Image Editing
+- [ ] Reference Image-based Panoramic Editing (Coming Soon)
+
+## �️ Visual Showcase
+
+### Editing Results
+![Comparison Results](assets/compare.png)
+
+### Reference-based Editing
+![Reference Image Editing](assets/ref.jpeg)
+
+### Dataset Examples
+![Dataset Samples](assets/dataset.png)
+
+## �🛠️ Installation
 
 This project has two separate environments:
 - **Data Creation**: For dataset preparation and processing
@@ -220,10 +236,21 @@ python main.py test \
     --result_dir=logs/your_result_dir/test \
 
 ```
+```
 *   `--result_dir`: Directory where results will be saved.
 
 
+## 🙏 Acknowledgement
 
+This project builds upon and integrates several excellent open-source projects:
 
+- [PanFusion](https://github.com/chengzhag/PanFusion.git) - Panoramic image fusion framework
+- [MVDiffusion](https://github.com/Tangshitao/MVDiffusion.git) - Multi-view diffusion model
+- [SAM2](https://github.com/facebookresearch/sam2.git) - Segment Anything Model 2
+- [Grounded-Segment-Anything](https://github.com/IDEA-Research/Grounded-Segment-Anything.git) - Grounding DINO and SAM integration
+- [LaMa](https://github.com/advimman/lama.git) - Large Mask Inpainting
+- [OmniGen](https://github.com/VectorSpaceLab/OmniGen.git) - Omni-generative model
+
+We thank the authors for their valuable contributions to the community.
 
 
