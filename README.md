@@ -35,7 +35,7 @@ This project has two separate environments:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/SE360.git
+git clone https://github.com/zhonghaoyi/SE360.git
 cd SE360
 ```
 
