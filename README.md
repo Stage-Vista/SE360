@@ -18,15 +18,18 @@ SE360 is a novel framework for semantic editing in 360° panoramas. By leveragin
 
 ## 📸 Visual Showcase
 
-### Data Creation Pipeline
-![SE360_Base](assets/SE360_Base.jpeg)
-![SE360_HF](assets/SE360_HF.jpeg)
+### Data Creation Pipeline (SE360_Base)
+<img src="assets/SE360_Base.jpeg" alt="SE360_Base" width="100%">
+
+### Data Creation Pipeline (SE360_HF)
+<img src="assets/SE360_HF.jpeg" alt="SE360_HF" width="70%">
 
 ### Model Structure
-![Model Structure](assets/model_pipeline.jpeg)
+<img src="assets/model_pipeline.jpeg" alt="Model Structure" width="100%">
 
 ### Dataset Examples
-![Dataset Samples](assets/dataset.png)
+<img src="assets/dataset.png" alt="Dataset Samples" width="100%">
+
 
 ## 🛠️ Installation
 
