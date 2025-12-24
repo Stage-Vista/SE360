@@ -7,6 +7,7 @@
 SE360 is a novel framework for semantic editing in 360° panoramas. By leveraging hierarchical data construction and advanced generative models, SE360 enables high-quality, semantically consistent edits in panoramic images.
 
 **This paper has been accepted by AAAI 2026.**
+Paper link: https://arxiv.org/pdf/2512.19943
 
 **Authors:** Haoyi Zhong, Fang-Lue Zhang, Andrew Chalmers, Taehyun Rhee
 
@@ -14,7 +15,7 @@ SE360 is a novel framework for semantic editing in 360° panoramas. By leveragin
 
 - [x] Data Generation Pipeline
 - [x] Panoramic Image Editing
-- [ ] Arxiv Paper
+- [x] Arxiv Paper
 - [ ] Reference Image-based Panoramic Editing (Coming Soon)
 
 ## 📸 Visual Showcase
